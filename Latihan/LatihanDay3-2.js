@@ -106,25 +106,25 @@
 // }
 
 //14
-// let year = new Date("1, 1, 1922");
-// let year2 = new Date('5, 14, 2022');
-// let lived = new Date();
+let year = new Date("1, 1, 1922");
+let year2 = new Date('5, 14, 2022');
+let lived = new Date();
 
-// console.log((lived.getFullYear()-100)/1000)
-// console.log(year2.getTime());
-// console.log(Math.abs(year.getTime())/1000);
+console.log((lived.getFullYear()-100)/1000)
+console.log(year2.getTime());
+console.log(Math.abs(year.getTime())/1000);
 
 //15
-let date = new Date();
-let result = date.toLocaleDateString("en-US", {year: "numeric", month:"2-digit", day:"2-digit"})
-let day = date.getDate();
-let week = date.getDay();
-let month = (date.getMonth()+1).toString().padStart(2, '0');
-let year = date.getFullYear();
-let hour = date.getHours();
-let minutes = date.getMinutes();
+// let date = new Date();
+// let result = date.toLocaleDateString("en-US", {year: "numeric", month:"2-digit", day:"2-digit"})
+// let day = date.getDate();
+// let week = date.getDay();
+// let month = (date.getMonth()+1).toString().padStart(2, '0');
+// let year = date.getFullYear();
+// let hour = date.getHours();
+// let minutes = date.getMinutes();
 
-console.log(result);
-console.log(year+'-'+month+'-'+day+' '+hour+':'+minutes);
-console.log(`${day}-${month}-${year} ${hour}:${minutes}`);
-console.log(`${day}/${month}/${year} ${hour}:${minutes}`);
+// console.log(result);
+// console.log(year+'-'+month+'-'+day+' '+hour+':'+minutes);
+// console.log(`${day}-${month}-${year} ${hour}:${minutes}`);
+// console.log(`${day}/${month}/${year} ${hour}:${minutes}`);
