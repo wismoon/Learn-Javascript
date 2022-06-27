@@ -45,7 +45,28 @@ import {countries} from './src/countries.js';
 // }
 
 //5. In the webTechs array check if Sass exists in the array  and if it exists print 'Sass is a CSS preprocess'. If it does not exist add Sass to the array and print the array.
+// let check = webTechs.indexOf('Sass');
+// let check2 = webTechs.includes('Sass');
+// let text = ' is a CSS preprocess';
+// for (let i = 0; i < webTechs.length; i++)
+// {
+//     if(i == check){
+//         console.log('Yes')
+//         console.log(webTechs[i].join(text));    
+//     }else if(check2 == false){
+//         console.log('No')
+//         webTechs.push('Sass')
+//         break;
+//     }
 
+// }
+// console.log(webTechs)
 
+//6. Concatenate the following two variables and store it in a fullStack variable.
+// const frontEnd = ['HTML', 'CSS', 'JS', 'React', 'Redux']
+// const backEnd = ['Node','Express', 'MongoDB']
+// let fullStack = '';
+// console.log(fullStack.concat(frontEnd, backEnd))
 
+//
 
