@@ -19,9 +19,9 @@
 // console.log(_mixedDataTypes_.length);
 
 //6. Declare an array variable name itCompanies and assign initial values Facebook, Google, Microsoft, Apple, IBM, Oracle and Amazon
-const name = 'Facebook Google Microsoft Apple IBM Oracle and Amazon';
-const itCompanies = name.split(' ');
-const myArray = itCompanies;
+// const name = 'Facebook Google Microsoft Apple IBM Oracle and Amazon';
+// const itCompanies = name.split(' ');
+// const myArray = itCompanies;
 // console.log(itCompanies);
 
 //7. Print the array using _console.log()_

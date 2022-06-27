@@ -11,3 +11,5 @@ const countries = [
     'Japan',
     'Kenya'
   ]
+
+  export {countries}
